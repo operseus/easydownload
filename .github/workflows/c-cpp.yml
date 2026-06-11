@@ -21,11 +21,8 @@ jobs:
 
     - name: Build C++
       run: |
-        # C++ dosyalarını derleyen komut (Örn: g++ main.cpp -o program)
-        # Eğer Makefile varsa sadece 'make' yazabilirsin
         g++ *.cpp -o cpp_prog 
 
     - name: Build Lazarus
       run: |
-        # Lazarus projesini derleyen komut (.lpi dosyanın adını yazmalısın)
-        lazbuild senin_projen.lpi
+        lazbuild EasyDownload.lpi
