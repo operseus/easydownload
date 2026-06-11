@@ -1,0 +1,67 @@
+/* EasyDownload site — base + animations */
+html, body { margin: 0; padding: 0; background: #FFFCFA; }
+* { box-sizing: border-box; }
+body { font-family: 'Outfit', sans-serif; color: #231F1E; }
+a { color: inherit; }
+button { transition: filter 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease; }
+button:hover { filter: brightness(1.06); transform: translateY(-2px); }
+button:active { transform: translateY(0) scale(0.98); }
+a.btn { transition: filter 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease; text-decoration: none; }
+a.btn:hover { filter: brightness(1.06); transform: translateY(-2px); }
+a.btn:active { transform: translateY(0) scale(0.98); }
+a.navlink { transition: opacity 0.15s ease; }
+a.navlink:hover { opacity: 0.7; }
+
+/* ---- hero entrance ---- */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-in { opacity: 0; transform: translateY(26px); animation: ed-rise 0.85s cubic-bezier(0.2, 0.7, 0.2, 1) forwards; }
+  .hero-in.d1 { animation-delay: 0.08s; }
+  .hero-in.d2 { animation-delay: 0.2s; }
+  .hero-in.d3 { animation-delay: 0.32s; }
+  .hero-in.d4 { animation-delay: 0.44s; }
+  .hero-in.d5 { animation-delay: 0.58s; }
+}
+@keyframes ed-rise {
+  to { opacity: 1; transform: none; }
+}
+
+/* ---- floating decorative blobs ---- */
+@media (prefers-reduced-motion: no-preference) {
+  .ed-blob { animation: ed-float 9s ease-in-out infinite alternate; }
+  .ed-blob.slow { animation-duration: 13s; }
+}
+@keyframes ed-float {
+  from { transform: translateY(-14px); }
+  to { transform: translateY(18px); }
+}
+
+/* ---- scroll reveal ---- */
+[data-reveal] { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal] { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.75s cubic-bezier(0.2, 0.7, 0.2, 1); transition-delay: var(--rd, 0s); }
+  [data-reveal].revealed { opacity: 1; transform: none; }
+}
+
+/* ---- screenshot crossfade ---- */
+.ed-shot { transition: opacity 0.45s ease, transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.ed-shot.hidden-shot { opacity: 0; transform: scale(0.985); position: absolute; inset: 0; pointer-events: none; }
+
+/* ---- screenshot frame hover ---- */
+.ed-frame { transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.4s ease; }
+.ed-frame:hover { transform: translateY(-4px); box-shadow: 0 40px 90px -22px rgba(35, 31, 30, 0.34); }
+
+/* ---- feature card hover ---- */
+.ed-card { transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.35s ease; }
+.ed-card:hover { transform: translateY(-6px); box-shadow: 0 22px 44px -24px rgba(35, 31, 30, 0.25); }
+
+/* ---- release asset row hover ---- */
+.ed-asset { transition: background 0.18s ease, transform 0.18s ease; }
+.ed-asset:hover { background: #FFF6F2 !important; transform: translateX(4px); }
+
+/* ---- split download button ---- */
+.ed-split { transition: transform 0.18s ease; }
+.ed-split:hover { transform: translateY(-2px); }
+.ed-split > a.btn:hover, .ed-split > button:hover { transform: none; }
+.ed-split > a.btn:hover { filter: brightness(1.04); }
+
+input:focus, select:focus { outline: 2px solid oklch(0.62 0.22 27 / 0.45); outline-offset: 1px; }

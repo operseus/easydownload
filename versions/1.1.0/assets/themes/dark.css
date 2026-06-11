@@ -1,0 +1,18 @@
+/* @name Dark */
+:root {
+  --bg: #16191d;
+  --surface: #1e2228;
+  --surface-2: #262b32;
+  --text: #e8ebef;
+  --text-dim: #9aa4b0;
+  --border: #353b44;
+  --primary: #4c8dff;
+  --primary-text: #0c1118;
+  --primary-hover: #6aa0ff;
+  --danger: #ef5b5b;
+  --success: #34c97b;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,.45), 0 1px 2px rgba(0,0,0,.4);
+  /* monochrome icons are dark; invert them so they read on dark surfaces */
+  --icon-filter: invert(0.9);
+}

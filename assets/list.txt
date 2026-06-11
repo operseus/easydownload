@@ -1,0 +1,133 @@
+============================================================
+ EasyDownload — GEREKLİ VARLIK (ASSET) LİSTESİ
+ (Lazarus / native arayüz sürümü — Chromium YOK)
+============================================================
+
+Bu dosyada arayüzün kullandığı tüm görseller, ikonlar ve fontlar
+listelenir. Aşağıdaki dosyaları BELİRTİLEN klasöre, BİREBİR aynı
+dosya adıyla koyman yeterli.
+
+ÖNEMLİ: Bir dosya eksikse uygulama yine açılır ve çalışır; sadece o
+ikon/logo görünmez (yerine düğmenin yazı etiketi kalır). Yani önce
+arayüzü çalıştırabiliriz, ikonları sonradan teker teker doldurabilirsin.
+
+Klasör kökü:  assets/
+
+------------------------------------------------------------
+ NASIL ÇİZİLMELİ (genel kural — LÜTFEN OKU)
+------------------------------------------------------------
+- BİÇİM: Sadece .svg  (vektör). PNG/JPG ikon KOYMA.
+- STİL : Tek renkli (monokrom), İNCE ÇİZGİ (line / outline), dolu değil.
+- RENK : Tek renk yeterli — örn. siyah (#000000) ya da koyu gri (#2B2B2B).
+         Arayüz, ikonu temaya göre otomatik renklendirecek (BGRABitmap ile
+         yeniden boyar). Bu yüzden ikonun İÇİNDE renk olmasına gerek yok.
+- ARKA PLAN: ŞEFFAF.
+- ÇERÇEVE (viewBox): 24 24  (yani <svg viewBox="0 0 24 24">). Kare olsun.
+- Görsel olarak sade ve "yaşlı bir insanın bile tanıyabileceği" klasik
+  semboller seçilsin (retro-temiz çizgi). Süslü/3B/gölgeli olmasın.
+
+============================================================
+ 1) ÜST BAR (NAVİGASYON) İKONLARI   ->  assets/icons/
+============================================================
+Üst bardaki 4 ana sekmenin yanında görünür.
+
+  download.svg   - "İndir" sekmesi      (aşağı ok)          [VAR]
+  queue.svg      - "Sıra" sekmesi       (liste / sıralı çizgiler)   [YENİ — gerek]
+  history.svg    - "Geçmiş" sekmesi     (geri saat / saat oku)      [YENİ — gerek]
+  settings.svg   - "Ayarlar" sekmesi    (dişli çark)         [VAR]
+
+============================================================
+ 2) "İNDİR" SAYFASI İKONLARI   ->  assets/icons/
+============================================================
+  paste.svg        - "Yapıştır" düğmesi (pano / clipboard)          [VAR]
+  search.svg       - "Getir" düğmesi (büyüteç)                       [VAR]
+  video.svg        - "Video" seçimi (film şeridi / oynat)           [VAR]
+  music.svg        - "Müzik" seçimi (nota)                          [VAR]
+  folder.svg       - "Klasör seç / Değiştir" (klasör)               [VAR]
+  cancel.svg       - "İptal" düğmesi (çarpı / X)                     [VAR]
+  check.svg        - "Tamamlandı / Kaydet" (onay tiki)              [VAR]
+  open-folder.svg  - Sonuç: "Klasörü aç" (açık klasör)              [VAR]
+  file.svg         - Sonuç: "Dosyayı göster" (dosya / belge)        [VAR]
+
+============================================================
+ 3) "SIRA" SAYFASI İKONLARI   ->  assets/icons/
+============================================================
+  play.svg         - "Sırayı başlat / devam et" (oynat üçgeni)      [YENİ — gerek]
+  pause.svg        - "Duraklat" (iki dikey çubuk)                   [YENİ — gerek]
+  trash.svg        - "Sıradan kaldır / sil" (çöp kutusu)            [YENİ — gerek]
+  arrow-up.svg     - "Sırada yukarı taşı" (yukarı ok)               [YENİ — opsiyonel]
+  arrow-down.svg   - "Sırada aşağı taşı" (aşağı ok)                 [YENİ — opsiyonel]
+  clear.svg        - "Tümünü temizle" (süpürge / x'li liste)        [YENİ — opsiyonel]
+
+============================================================
+ 4) "GEÇMİŞ" SAYFASI İKONLARI   ->  assets/icons/
+============================================================
+  retry.svg        - "Tekrar indir" (dairesel yenile oku)          [YENİ — gerek]
+  trash.svg        - "Geçmişten sil"  (yukarıdakiyle aynı dosya)    [paylaşımlı]
+  open-folder.svg  - "Konumu aç"      (yukarıdakiyle aynı dosya)    [paylaşımlı]
+  file.svg         - "Dosyayı göster" (yukarıdakiyle aynı dosya)    [paylaşımlı]
+
+============================================================
+ 5) GENEL / ORTAK İKONLAR   ->  assets/icons/
+============================================================
+  info.svg         - "Hakkında / yardım" (i bilgi)                  [VAR]
+  link.svg         - URL/bağlantı simgesi (zincir)                  [YENİ — opsiyonel]
+  warning.svg      - Hata/uyarı durumları (üçgen ünlem)             [YENİ — opsiyonel]
+
+------------------------------------------------------------
+ ÖZET: ŞU AN KLASÖRDE OLMAYAN, EKLENMESİ GEREKENLER
+------------------------------------------------------------
+  ZORUNLU (arayüzün düzgün görünmesi için):
+    queue.svg, history.svg, play.svg, pause.svg, trash.svg, retry.svg
+  OPSİYONEL (sonra eklenebilir):
+    arrow-up.svg, arrow-down.svg, clear.svg, link.svg, warning.svg
+
+============================================================
+ 6) LOGOLAR   ->  assets/logos/   (BİÇİM: .png + .ico + .svg)
+============================================================
+  logo.png   - Hakkında penceresinde ve boş ekranlarda görünecek logo.
+               Öneri: KARE, ŞEFFAF arka plan, en az 256x256 px.        [VAR]
+  logo.ico   - Pencere/başlık çubuğu ve görev çubuğu simgesi (Windows).
+               Öneri: 16,32,48,256 px katmanlarını İÇİNDE barındıran
+               tek bir çok-boyutlu .ico.                               [VAR — boyut katmanlarını kontrol et]
+  logo.svg   - İleride yüksek çözünürlük gereken yerler için.          [VAR]
+
+============================================================
+ 7) YAZI TİPLERİ (FONTLAR)   ->  assets/fonts/   (BİÇİM: .ttf)
+============================================================
+Arayüz, fontları SİSTEME KURMADAN doğrudan klasörden yükleyecek
+(Windows'ta AddFontResourceEx ile çalışma anında). Bu yüzden sadece
+.ttf dosyasını klasöre koyman yeterli.
+
+  app-regular.ttf  - Normal kalınlık (gövde metni, font-weight 400)
+  app-bold.ttf     - Kalın (başlıklar / düğmeler, font-weight 700)
+
+  Öneri: Yüksek okunabilirlik için sade bir sans-serif.
+         Yaşı ileri / az gören kullanıcılar için ideal seçenekler:
+           * "Atkinson Hyperlegible"  (en okunaklısı, önerilir)
+           * "Open Sans"  (klasördeki 'Open Sans.ttf' kullanılabilir)
+           * "Roboto"     (klasördeki 'Roboto.ttf' kullanılabilir)
+  NOT: Klasörde hâlihazırda birçok .ttf var (Open Sans, Roboto, Ubuntu...).
+       Bunlardan birini seçip 'app-regular.ttf' / 'app-bold.ttf' adıyla
+       KOPYALA. Böylece arayüz hangi font dosyasını yükleyeceğini şaşırmaz.
+       Bu iki dosya yoksa otomatik olarak sistemin "Segoe UI" fontu kullanılır.
+
+============================================================
+ 8) GÖRSELLER   ->  assets/images/   (BİÇİM: .png / .jpg)
+============================================================
+Zorunlu değildir. Boş sayfalar daha sıcak görünsün diye eklenebilir.
+
+  empty-queue.png    - "Sıra" sayfası boşken gösterilecek küçük görsel.  [opsiyonel]
+  empty-history.png  - "Geçmiş" sayfası boşken gösterilecek görsel.      [opsiyonel]
+  Öneri: ŞEFFAF arka plan, ~160x160 px, soluk/gri tonlu sade çizim.
+  (Video kapak görselleri internetten otomatik gelir; buraya konmaz.)
+
+============================================================
+ NOTLAR
+============================================================
+- Tüm yollar uygulama köküne göredir:  assets/<klasör>/<dosya>
+- Yeni dil eklemek için:   assets/languages/<kod>.json   (örnek: de.json)
+- Yeni tema eklemek için:  themes/<ad>.<uzantı>           (örnek: ocean...)
+- İkonlar yazı etiketleriyle birlikte gösterilir; bir ikon eksikse
+  sadece resim gizlenir, düğmenin yazısı yine okunur.
+============================================================

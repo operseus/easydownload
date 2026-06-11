@@ -1,0 +1,43 @@
+Setup Complete
+==============
+
+EasyDownload has been installed on your computer. Thanks for using it!
+
+Useful links:
+
+  - Website:        https://easydownload.net
+  - Documentation:  https://docs.easydownload.net
+  - Maker:          https://p4rs.com
+  - Feedback:       https://feedback.p4rs.com
+
+Tips:
+
+  - Paste a video/playlist link and start downloading from the "Download"
+    tab.
+  - You can change the language and theme from the Settings tab.
+  - If you have an issue or suggestion, reach out via the website above.
+
+Thank you — p4rs
+
+
+Kurulum Tamamlandı
+==================
+
+EasyDownload bilgisayarınıza kuruldu. Kullandığınız için teşekkürler!
+
+Faydalı bağlantılar:
+
+  - Web sitesi:      https://easydownload.net
+  - Dökümantasyon:   https://docs.easydownload.net
+  - Yapımcı:         https://p4rs.com
+  - Geri Bildirim:   https://feedback.p4rs.com
+
+İpuçları:
+
+  - Bir video/oynatma listesi linkini yapıştırıp "İndir" sekmesinden
+    indirmeye başlayabilirsiniz.
+  - Dil ve temayı Ayarlar sekmesinden değiştirebilirsiniz.
+  - Bir sorun veya öneriniz varsa yukarıdaki web sitesi üzerinden bize
+    ulaşabilirsiniz.
+
+Teşekkürler — p4rs

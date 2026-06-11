@@ -1,0 +1,17 @@
+/* @name Midnight */
+:root {
+  --bg: #0d1321;
+  --surface: #141b2e;
+  --surface-2: #1c2740;
+  --text: #e3e8f5;
+  --text-dim: #8d97b5;
+  --border: #2c3a5c;
+  --primary: #5b8cff;
+  --primary-text: #06101f;
+  --primary-hover: #7da2ff;
+  --danger: #ff6b6b;
+  --success: #4ade80;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,.5), 0 1px 2px rgba(0,0,0,.45);
+  --icon-filter: invert(0.9);
+}

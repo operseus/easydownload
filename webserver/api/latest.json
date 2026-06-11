@@ -1,0 +1,9 @@
+{
+  "version": "1.0.2b",
+  "version_code": 10002,
+  "file": "EasyDownload-Setup-1.0.2b.exe",
+  "url": "https://easydownload.net/api/download.php",
+  "notes": "EasyDownload 1.0.2b",
+  "mandatory": false,
+  "auto": true
+}

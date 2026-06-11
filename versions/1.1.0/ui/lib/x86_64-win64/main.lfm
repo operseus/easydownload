@@ -1,0 +1,388 @@
+object MainForm: TMainForm
+  Left = 129
+  Height = 474
+  Top = 163
+  Width = 680
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'EasyDownload'
+  ClientHeight = 474
+  ClientWidth = 680
+  Color = clWindow
+  Font.Height = -13
+  Font.Name = 'Segoe UI'
+  Position = poScreenCenter
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  object pcMain: TPageControl
+    Left = 0
+    Height = 474
+    Top = 0
+    Width = 680
+    ActivePage = tsQueue
+    Align = alClient
+    TabIndex = 1
+    TabOrder = 0
+    OnChange = pcMainChange
+    object tsDownload: TTabSheet
+      Caption = 'Download'
+      ClientHeight = 444
+      ClientWidth = 672
+      object lblLink: TLabel
+        Left = 12
+        Height = 19
+        Top = 18
+        Width = 28
+        Caption = 'Link:'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object edtUrl: TEdit
+        Left = 70
+        Height = 27
+        Top = 14
+        Width = 432
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+        TabOrder = 0
+        OnChange = edtUrlChange
+      end
+      object pnlSearch: TPanel
+        Cursor = crHandPoint
+        Left = 514
+        Height = 27
+        Top = 14
+        Width = 146
+        BevelOuter = bvNone
+        Caption = 'ARA'
+        Color = 15761438
+        Font.Color = clWhite
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 1
+        OnClick = btnSearchClick
+      end
+      object lblFolder: TLabel
+        Left = 12
+        Height = 19
+        Top = 53
+        Width = 41
+        Caption = 'Folder:'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object edtFolder: TEdit
+        Left = 70
+        Height = 27
+        Top = 49
+        Width = 540
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 2
+      end
+      object lblVideoTitle: TLabel
+        Left = 12
+        Height = 23
+        Top = 90
+        Width = 87
+        Caption = 'Video Title'
+        Font.Height = -17
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object pnlThumb: TPanel
+        Left = 12
+        Height = 170
+        Top = 118
+        Width = 330
+        BevelOuter = bvNone
+        ClientHeight = 170
+        ClientWidth = 330
+        Color = 13158600
+        ParentBackground = False
+        ParentColor = False
+        TabOrder = 3
+        object imgThumb: TImage
+          Left = 0
+          Height = 170
+          Top = 0
+          Width = 330
+          Align = alClient
+          Center = True
+          Proportional = True
+        end
+      end
+      object pcType: TPageControl
+        Left = 360
+        Height = 130
+        Top = 114
+        Width = 300
+        ActivePage = tsVideo
+        TabIndex = 0
+        TabOrder = 4
+        OnChange = pcTypeChange
+        object tsVideo: TTabSheet
+          Caption = 'Video'
+          ClientHeight = 100
+          ClientWidth = 292
+          object lblRes: TLabel
+            Left = 18
+            Height = 19
+            Top = 16
+            Width = 67
+            Caption = 'Resolution:'
+            Font.Height = -14
+            Font.Name = 'Segoe UI'
+            ParentFont = False
+          end
+          object cmbResolution: TComboBox
+            Left = 120
+            Height = 25
+            Top = 12
+            Width = 160
+            ItemHeight = 17
+            Style = csDropDownList
+            TabOrder = 0
+          end
+          object lblFmtV: TLabel
+            Left = 18
+            Height = 19
+            Top = 56
+            Width = 47
+            Caption = 'Format:'
+            Font.Height = -14
+            Font.Name = 'Segoe UI'
+            ParentFont = False
+          end
+          object cmbVideoFormat: TComboBox
+            Left = 120
+            Height = 25
+            Top = 52
+            Width = 160
+            ItemHeight = 17
+            Style = csDropDownList
+            TabOrder = 1
+          end
+        end
+        object tsAudio: TTabSheet
+          Caption = 'Audio'
+          ClientHeight = 100
+          ClientWidth = 292
+          object lblFmtA: TLabel
+            Left = 18
+            Height = 19
+            Top = 16
+            Width = 47
+            Caption = 'Format:'
+            Font.Height = -14
+            Font.Name = 'Segoe UI'
+            ParentFont = False
+          end
+          object cmbAudioFormat: TComboBox
+            Left = 120
+            Height = 25
+            Top = 12
+            Width = 160
+            ItemHeight = 17
+            Style = csDropDownList
+            TabOrder = 0
+          end
+        end
+      end
+      object chkInfo: TCheckBox
+        Left = 360
+        Height = 23
+        Top = 256
+        Width = 87
+        Caption = 'Embed info'
+        Checked = True
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+        State = cbChecked
+        TabOrder = 6
+      end
+      object pbProgress: TProgressBar
+        Left = 12
+        Height = 18
+        Top = 300
+        Width = 560
+        TabOrder = 5
+      end
+      object lblPercent: TLabel
+        Left = 584
+        Height = 19
+        Top = 300
+        Width = 19
+        Caption = '%0'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+    end
+    object tsQueue: TTabSheet
+      Caption = 'Queue'
+      ClientHeight = 444
+      ClientWidth = 672
+      object lvQueue: TListView
+        Left = 8
+        Height = 352
+        Top = 8
+        Width = 656
+        Columns = <>
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+      end
+    end
+    object tsHistory: TTabSheet
+      Caption = 'History'
+      ClientHeight = 444
+      ClientWidth = 672
+      object lvHistory: TListView
+        Left = 8
+        Height = 344
+        Top = 8
+        Width = 656
+        Columns = <>
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+      end
+    end
+    object tsAbout: TTabSheet
+      Caption = 'About'
+      ClientHeight = 444
+      ClientWidth = 672
+      object lblAboutTitle: TLabel
+        Left = 24
+        Height = 32
+        Top = 28
+        Width = 167
+        Caption = 'EasyDownload'
+        Font.Height = -24
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lblAboutVersion: TLabel
+        Left = 24
+        Height = 19
+        Top = 66
+        Width = 87
+        Caption = 'Version 1.0.0b'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object lblAboutDesc: TLabel
+        Left = 24
+        Height = 19
+        Top = 100
+        Width = 360
+        Caption = 'A simple tool to download videos and music for offline use.'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object lblAboutPowered: TLabel
+        Left = 24
+        Height = 19
+        Top = 130
+        Width = 195
+        Caption = 'Powered by yt-dlp and FFmpeg.'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object lblAboutLicense: TLabel
+        Left = 24
+        Height = 17
+        Top = 160
+        Width = 133
+        Caption = 'Open-source software.'
+        Font.Color = clGray
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+    end
+    object tsMaker: TTabSheet
+      Caption = 'Maker'
+      ClientHeight = 444
+      ClientWidth = 672
+      object lblMakerTitle: TLabel
+        Left = 24
+        Height = 32
+        Top = 28
+        Width = 72
+        Caption = 'Maker'
+        Font.Height = -24
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lblMakerSignature: TLabel
+        Left = 24
+        Height = 20
+        Top = 70
+        Width = 28
+        Caption = 'p4rs'
+        Font.Height = -15
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object lblMakerContact: TLabel
+        Left = 24
+        Height = 19
+        Top = 100
+        Width = 135
+        Caption = 'EasyDownload project'
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object lblAppSite: TLabel
+        Cursor = crHandPoint
+        Left = 24
+        Height = 19
+        Top = 140
+        Width = 77
+        Caption = 'App Website'
+        Font.Color = clBlue
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsUnderline]
+        ParentFont = False
+        OnClick = lblAppSiteClick
+      end
+      object lblMakerSite: TLabel
+        Cursor = crHandPoint
+        Left = 24
+        Height = 19
+        Top = 170
+        Width = 91
+        Caption = 'Maker Website'
+        Font.Color = clBlue
+        Font.Height = -14
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsUnderline]
+        ParentFont = False
+        OnClick = lblMakerSiteClick
+      end
+    end
+  end
+end

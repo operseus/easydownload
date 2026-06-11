@@ -1,0 +1,35 @@
+EasyDownload Setup
+===================
+
+EasyDownload is a simple, lightweight desktop app for downloading videos
+and music from YouTube and YouTube Music. It uses yt-dlp and FFmpeg under
+the hood (both are bundled with this installer — nothing else to download).
+
+What you should know about this setup:
+  - The installation takes up roughly 100-150 MB (including yt-dlp and
+    FFmpeg).
+  - The app can check for updates automatically (Settings > Updates).
+  - 10 languages and 4 visual themes are available (Settings).
+
+An internet connection is required to fetch video info and to download.
+
+Click "Next" to continue.
+
+
+EasyDownload Kurulumu
+=====================
+
+EasyDownload; YouTube ve YouTube Music'ten video/müzik indirmenizi sağlayan,
+sade ve hafif bir masaüstü uygulamasıdır. Arka planda yt-dlp ve FFmpeg
+kullanır (ikisi de bu kurulumla birlikte gelir, ayrıca bir şey indirmenize
+gerek yoktur).
+
+Bu kurulum hakkında bilmeniz gerekenler:
+  - Kurulum yaklaşık 100-150 MB yer kaplar (yt-dlp + FFmpeg dahil).
+  - Uygulama içinden otomatik güncelleme kontrolü yapılabilir
+    (Ayarlar > Güncellemeler).
+  - 10 dil ve 4 görsel tema arasından seçim yapabilirsiniz (Ayarlar).
+
+İnternet bağlantısı, video bilgisi alma ve indirme sırasında gereklidir.
+
+Devam etmek için "İleri" butonuna basın.
