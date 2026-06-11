@@ -11,12 +11,21 @@
   <strong>Türkçe</strong>
 </div>
 
-# EasyDownload
+# <img src="../../assets/logos/logo512.png" width="32" height="32" valign="middle"> EasyDownload
 
-EasyDownload, YouTube ve YouTube Music videolarını/şarkılarını en yüksek kalitede saniyeler içinde indirmenizi sağlayan ücretsiz, reklamsız, hafif (lightweight) ve açık kaynaklı bir masaüstü uygulamasıdır.
+EasyDownload; YouTube ve YouTube Music videolarını/şarkılarını en yüksek kalitede saniyeler içinde indirmenizi sağlayan ücretsiz, reklamsız, hafif (lightweight) ve açık kaynaklı bir masaüstü uygulamasıdır.
 
 <div align="center">
-  <img src="../screenshots/tabs.gif" alt="EasyDownload Arayüzü" width="700">
+
+[![GitHub Release](https://img.shields.io/github/v/release/operseus/easydownload?style=flat-square&color=33ccff)](https://github.com/operseus/easydownload/releases)
+[![GitHub License](https://img.shields.io/github/license/operseus/easydownload?style=flat-square&color=33ff99)](https://github.com/operseus/easydownload/blob/main/LICENSE)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/operseus/easydownload?style=flat-square&color=ff66cc)](https://github.com/operseus/easydownload)
+[![GitHub Stars](https://img.shields.io/github/stars/operseus/easydownload?style=flat-square&color=yellow)](https://github.com/operseus/easydownload/stargazers)
+
+</div>
+
+<div align="center">
+  <img src="../screenshots/tabs.gif" alt="EasyDownload Arayüzü" width="700" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
 </div>
 
 ---
@@ -28,7 +37,7 @@ EasyDownload, YouTube ve YouTube Music videolarını/şarkılarını en yüksek 
 * **Medya Bilgilerini Gömme (Embed Info):** İndirilen dosyalara kapak fotoğrafı, sanatçı adı ve video başlığı gibi meta verileri otomatik olarak entegre edin.
 * **Gelişmiş Sıra (Queue) & Geçmiş:** Birden fazla indirme görevini sıraya ekleyin, arka planda sırayla indirilmesini izleyin ve geçmiş sekmesinden eski indirmelerinizi kolayca yönetin.
 * **Düşük Kaynak Tüketimi:** Arka planda veya indirme yaparken sisteminizi asla yormaz, minimum RAM ve CPU kullanacak şekilde optimize edilmiştir.
-* **Çoklu Dil Desteği:** Türkçe, İngilizce, Almanca, Francese, İspanyolca ve daha birçok dil seçeneği ile yerel kullanım.
+* **Çoklu Dil Desteği:** Türkçe, İngilizce, Almanca, Fransızca, İspanyolca ve daha birçok dil seçeneği ile yerel kullanım.
 
 ---
 
@@ -39,7 +48,7 @@ EasyDownload, YouTube ve YouTube Music videolarını/şarkılarını en yüksek 
 | ⚡ İndirme Aşaması (`downloading.gif`) | ⚙️ Ayarlar Menüsü (`settings.gif`) |
 | :---: | :---: |
 | Link arama, video bilgilerini çekme ve anlık indirme ilerlemesini takip edin. | Yazı tipi, eşzamanlı indirme sınırı ve bildirimleri yönetin. |
-| <img src="../screenshots/downloading.gif" alt="İndirme Ekranı"> | <img src="../screenshots/settings.gif" alt="Ayarlar Menüsü"> |
+| <img src="../screenshots/downloading.gif" alt="İndirme Ekranı" width="340" style="border-radius: 6px;"> | <img src="../screenshots/settings.gif" alt="Ayarlar Menüsü" width="340" style="border-radius: 6px;"> |
 
 ---
 
@@ -48,11 +57,11 @@ EasyDownload, modern uygulamaların aksine sistem kaynaklarını neredeyse hiç 
 
 #### 📊 Boşta Çalışma Modu (`taskmanager-idle.png`)
 Uygulama arka planda veya beklemedeyken yalnızca **~5.2 MB RAM** ve %0 CPU tüketir.
-<img src="../screenshots/taskmanager-idle.png" alt="Boşta Performans Modu">
+<img src="../screenshots/taskmanager-idle.png" alt="Boşta Performans Modu" width="600" style="border-radius: 6px; border: 1px solid #30363d;">
 
 #### 📥 İndirme Esnası (`taskmanager-downloading.png`)
 Aktif olarak indirme yaparken bile sadece **~12.9 MB RAM** harcayarak ultra hafif performans sunar.
-<img src="../screenshots/taskmanager-downloading.png" alt="İndirme Esnası Performans Modu">
+<img src="../screenshots/taskmanager-downloading.png" alt="İndirme Esnası Performans Modu" width="600" style="border-radius: 6px; border: 1px solid #30363d;">
 
 ---
 
@@ -61,17 +70,17 @@ Aktif olarak indirme yaparken bile sadece **~12.9 MB RAM** harcayarak ultra hafi
 Göz zevkinize en uygun olanı seçebilmeniz için uygulamada Midnight, Dark, Light ve Sepia olmak üzere 4 farklı yerleşik tema seçeneği sunulmaktadır. Temalar arasındaki akıcı geçişi aşağıdan görebilirsiniz:
 
 <div align="center">
-  <img src="../screenshots/thames/thame.gif" alt="EasyDownload Temalar Geçişi" width="700">
+  <img src="../screenshots/thames/thame.gif" alt="EasyDownload Temalar Geçişi" width="700" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 </div>
 
 ---
 
 ## 📦 İndirme ve Kurulum
 
-Güncel kararlı sürümlere ve indirme dosyalarına [GitHub Releases](https://github.com/operseus/easydownload/releases) sayfamızdan ulaşabilirsiniz.
+Uygulamanın en güncel kararlı sürümlerine, taşınabilir paketlerine ve geçmiş versiyonlarına direkt olarak [**GitHub Releases**](https://github.com/operseus/easydownload/releases) sayfasından ulaşabilirsiniz.
 
-1. **Önerilen Kurulum:** `EasyDownload-Setup-x.x.x.exe` dosyasını indirin ve birkaç saniye içinde kurun.
-2. **Taşınabilir Sürüm (Portable):** `EasyDownload-x.x.x-portable.zip` dosyasını indirip bir klasöre çıkartarak kurulum yapmadan doğrudan kullanmaya başlayabilirsiniz.
+* 📥 **Önerilen Kurulum (Sihirbaz):** En son kararlı sürüm olan `EasyDownload-Setup-x.x.x.exe` dosyasını indirin ve saniyeler içinde kurulumu tamamlayın.
+* 🚀 **Taşınabilir Sürüm (Portable):** Sistemde iz bırakmasını istemiyorsanız `EasyDownload-x.x.x-portable.zip` arşivini indirin, dilediğiniz bir klasöre çıkartın ve kurulum yapmadan doğrudan çalıştırın.
 
 ---
 
@@ -81,10 +90,10 @@ Bu depo, uygulamanın web sitesi kodlarını, sürümlerini ve altyapı araçlar
 * 📁 `webserver/` - EasyDownload tanıtım web sitesi kaynak kodları ve otomatik güncelleme API entegrasyonu.
 * 📁 `versions/` - EasyDownload sürümlerine ait derlenmiş kaynak kodları.
 * 📁 `releases/` - EasyDownload sürümlerine ait derlenmiş kaynak ve dağıtım dosyaları.
-* 📁 `docs/` - EasyDownload ile ilgili dökümanlar ve README dosyaları.
+* 📁 `docs/` - EasyDownload ile ilgili dökümanlar ve bölgesel README dosyaları.
 
 ---
 
 ## 📜 Lisans
 
-Bu proje açık kaynaklı olarak geliştirilmektedir ve tamamen ücretsizdir. Daha fazla bilgi ve kullanım detayları için `LICENSE` dosyasına göz atabilirsiniz.
+Bu proje açık kaynaklı olarak geliştirilmektedir ve tamamen ücretsizdir. Kullanım kuralları, dağıtım izinleri ve detaylar için [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) dosyasına göz atabilirsiniz.

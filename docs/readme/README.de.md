@@ -8,51 +8,60 @@
   <a href="README.it.md">Italiano</a> | 
   <a href="README.pt.md">Português</a> | 
   <a href="README.ru.md">Русский</a> | 
-  <a href="README.tr.md">Türkçe</a>
+  <a href="../README/README.tr.md">Türkçe</a>
 </div>
 
-# EasyDownload
+# <img src="../../assets/logos/logo512.png" width="32" height="32" valign="middle"> EasyDownload
 
 EasyDownload ist eine kostenlose, werbefreie, ressourcenschonende (lightweight) und quelloffene Desktop-Anwendung, mit der Sie YouTube- und YouTube Music-Videos/-Songs in höchster Qualität in Sekundenschnelle herunterladen können.
 
 <div align="center">
-  <img src="../screenshots/tabs.gif" alt="EasyDownload Benutzeroberfläche" width="700">
+
+[![GitHub Release](https://img.shields.io/github/v/release/operseus/easydownload?style=flat-square&color=33ccff)](https://github.com/operseus/easydownload/releases)
+[![GitHub License](https://img.shields.io/github/license/operseus/easydownload?style=flat-square&color=33ff99)](https://github.com/operseus/easydownload/blob/main/LICENSE)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/operseus/easydownload?style=flat-square&color=ff66cc)](https://github.com/operseus/easydownload)
+[![GitHub Stars](https://img.shields.io/github/stars/operseus/easydownload?style=flat-square&color=yellow)](https://github.com/operseus/easydownload/stargazers)
+
+</div>
+
+<div align="center">
+  <img src="../screenshots/tabs.gif" alt="EasyDownload Benutzeroberfläche" width="700" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
 </div>
 
 ---
 
-## 🚀 Funktionen
+## 🚀 Eigenschaften
 
-* **Beste Videoqualität:** Laden Sie Videos ohne Qualitätsverlust mit bis zu 4K-Auflösung in den Formaten MP4, WebM oder MKV herunter.
-* **Erweiterter Audiokonverter:** Konvertieren Sie YouTube-Videos oder YouTube Music-Links mit einem Klick in hochwertiges MP3.
-* **Medieninformationen einbetten:** Fügen Sie heruntergeladenen Dateien automatisch Metadaten wie Cover, Künstlername und Videotitel hinzu.
-* **Erweiterte Warteschlange & Verlauf:** Fügen Sie mehrere Downloads zur Warteschlange hinzu, beobachten Sie, wie sie nacheinander im Hintergrund heruntergeladen werden, und verwalten Sie alte Downloads ganz einfach im Verlaufs-Tab.
-* **Geringer Ressourcenverbrauch:** Optimiert auf minimalen RAM- und CPU-Verbrauch, verlangsamt Ihr System auch im Hintergrund oder beim Herunterladen niemals.
-* **Mehrsprachige Unterstützung:** Lokale Nutzung mit Türkisch, Englisch, Deutsch, Französisch, Spanisch und vielen weiteren Sprachoptionen.
+* **Beste Videoqualität:** Laden Sie Videos ohne Qualitätsverlust bis zu 4K-Auflösung in den Formaten MP4, WebM oder MKV herunter.
+* **Erweiterter Audio-Konverter:** Konvertieren Sie YouTube-Videos oder YouTube Music-Links mit einem Klick in das hochwertige MP3-Format.
+* **Medieninformationen einbetten (Embed Info):** Integrieren Sie automatisch Metadaten wie Titelbild, Künstlername und Videotitel in heruntergeladene Dateien.
+* **Erweiterte Warteschlange & Verlauf:** Fügen Sie der Warteschlange mehrere Download-Aufgaben hinzu, sehen Sie zu, wie sie nacheinander im Hintergrund heruntergeladen werden, und verwalten Sie Ihre alten Downloads ganz einfach über die Verlaufs-Registerkarte.
+* **Geringer Ressourcenverbrauch:** Optimiert für minimale RAM- und CPU-Nutzung, bremst Ihr System niemals aus, während es im Hintergrund läuft oder herunterlädt.
+* **Mehrsprachige Unterstützung:** Lokalisierte Nutzung mit Englisch, Türkisch, Deutsch, Französisch, Spanisch und vielen weiteren Sprachoptionen.
 
 ---
 
-## 📸 In-App-Vorschau
+## 📸 In-App-Vorschauen
 
 ### 🔹 Download-Panel & Erweitertes Einstellungsmenü
 
 | ⚡ Download-Phase (`downloading.gif`) | ⚙️ Einstellungsmenü (`settings.gif`) |
 | :---: | :---: |
 | Link-Suche, Videoinformationen abrufen und Download-Fortschritt in Echtzeit verfolgen. | Schriftart, gleichzeitiges Download-Limit und Benachrichtigungen verwalten. |
-| <img src="../screenshots/downloading.gif" alt="Download-Bildschirm"> | <img src="../screenshots/settings.gif" alt="Einstellungsmenü"> |
+| <img src="../screenshots/downloading.gif" alt="Download-Bildschirm" width="340" style="border-radius: 6px;"> | <img src="../screenshots/settings.gif" alt="Einstellungsmenü" width="340" style="border-radius: 6px;"> |
 
 ---
 
-### 🔹 Herausragende Leistung und Leichtigkeit
-Im Gegensatz zu modernen Anwendungen verbraucht EasyDownload fast keine Systemressourcen. Die Daten des Task-Managers in ihrer ursprünglichen Klarheit sehen Sie unten:
+### 🔹 Hervorragende Leistung und Leichtigkeit
+Im Gegensatz zu modernen Anwendungen verbraucht EasyDownload fast keine Systemressourcen. Die Task-Manager-Daten in ihrer ursprünglichen Klarheit finden Sie unten:
 
 #### 📊 Leerlaufmodus (`taskmanager-idle.png`)
 Im Hintergrund oder Standby verbraucht die Anwendung nur **~5,2 MB RAM** und 0 % CPU.
-<img src="../screenshots/taskmanager-idle.png" alt="Leerlaufleistungsmodus">
+<img src="../screenshots/taskmanager-idle.png" alt="Leerlaufleistungsmodus" width="600" style="border-radius: 6px; border: 1px solid #30363d;">
 
 #### 📥 Während des Downloads (`taskmanager-downloading.png`)
 Selbst beim aktiven Herunterladen bietet es ultraleichte Leistung und verbraucht nur **~12,9 MB RAM**.
-<img src="../screenshots/taskmanager-downloading.png" alt="Download-Leistungsmodus">
+<img src="../screenshots/taskmanager-downloading.png" alt="Download-Leistungsmodus" width="600" style="border-radius: 6px; border: 1px solid #30363d;">
 
 ---
 
@@ -61,30 +70,30 @@ Selbst beim aktiven Herunterladen bietet es ultraleichte Leistung und verbraucht
 Um das Design zu wählen, das Ihren Augen am besten gefällt, bietet die Anwendung 4 verschiedene integrierte Designoptionen: Midnight, Dark, Light und Sepia. Den fließenden Übergang zwischen den Designs sehen Sie unten:
 
 <div align="center">
-  <img src="../screenshots/thames/thame.gif" alt="EasyDownload Designübergang" width="700">
+  <img src="../screenshots/thames/thame.gif" alt="EasyDownload Designübergang" width="700" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 </div>
 
 ---
 
-## 📦 Download und Installation
+## 📦 Herunterladen und Installation
 
-Die neuesten stabilen Versionen und Download-Dateien finden Sie auf unserer Seite [GitHub Releases](https://github.com/operseus/easydownload/releases).
+Sie können direkt auf die neuesten stabilen Versionen, portablen Pakete und früheren Veröffentlichungen der Anwendung auf der Seite [**GitHub Releases**](https://github.com/operseus/easydownload/releases) zugreifen.
 
-1. **Empfohlene Installation:** Laden Sie die Datei `EasyDownload-Setup-x.x.x.exe` herunter und installieren Sie sie in wenigen Sekunden.
-2. **Portable Version:** Laden Sie die Datei `EasyDownload-x.x.x-portable.zip` herunter, entpacken Sie sie in einen Ordner und verwenden Sie sie direkt ohne Installation.
+* 📥 **Empfohlene Installation (Assistent):** Laden Sie die neueste stabile Version `EasyDownload-Setup-x.x.x.exe` herunter und schließen Sie die Installation in Sekundenschnelle ab.
+* 🚀 **Portable Version:** Wenn Sie keine Spuren auf Ihrem System hinterlassen möchten, laden Sie das Archiv `EasyDownload-x.x.x-portable.zip` herunter, entpacken Sie es in einen beliebigen Ordner und führen Sie es direkt ohne Installation aus.
 
 ---
 
 ## 🛠 Projektstruktur
 
-Dieses Repository enthält die Website-Codes, Versionen und Infrastruktur-Tools der Anwendung:
-* 📁 `webserver/` - Quellcodes der EasyDownload Werbe-Website und automatische Update-API-Integration.
+Dieses Repository hostet die Website-Codes, Versionen und Infrastruktur-Tools der Anwendung:
+* 📁 `webserver/` - EasyDownload Werbe-Website-Quellcodes und automatische Update-API-Integration.
 * 📁 `versions/` - Kompilierte Quellcodes der EasyDownload-Versionen.
 * 📁 `releases/` - Kompilierte Quell- und Distributionsdateien der EasyDownload-Versionen.
-* 📁 `docs/` - Dokumentationen und README-Dateien zu EasyDownload.
+* 📁 `docs/` - Dokumentation und regionale README-Dateien zu EasyDownload.
 
 ---
 
 ## 📜 Lizenz
 
-Dieses Projekt ist Open Source und völlig kostenlos. Weitere Informationen und Nutzungsdetails finden Sie in der Datei `LICENSE`.
+Dieses Projekt wird als Open-Source entwickelt und ist völlig kostenlos. Nutzungsregeln, Vertriebsgenehmigungen und Details finden Sie in der Datei [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE).

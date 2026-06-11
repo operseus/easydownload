@@ -8,15 +8,24 @@
   <a href="README.it.md">Italiano</a> | 
   <a href="README.pt.md">Português</a> | 
   <a href="README.ru.md">Русский</a> | 
-  <a href="README.tr.md">Türkçe</a>
+  <a href="../README/README.tr.md">Türkçe</a>
 </div>
 
-# EasyDownload
+# <img src="../../assets/logos/logo512.png" width="32" height="32" valign="middle"> EasyDownload
 
 EasyDownload est une application de bureau gratuite, sans publicité, légère (lightweight) et open-source qui vous permet de télécharger des vidéos et des chansons YouTube et YouTube Music avec la plus haute qualité en quelques secondes.
 
 <div align="center">
-  <img src="../screenshots/tabs.gif" alt="Interface EasyDownload" width="700">
+
+[![GitHub Release](https://img.shields.io/github/v/release/operseus/easydownload?style=flat-square&color=33ccff)](https://github.com/operseus/easydownload/releases)
+[![GitHub License](https://img.shields.io/github/license/operseus/easydownload?style=flat-square&color=33ff99)](https://github.com/operseus/easydownload/blob/main/LICENSE)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/operseus/easydownload?style=flat-square&color=ff66cc)](https://github.com/operseus/easydownload)
+[![GitHub Stars](https://img.shields.io/github/stars/operseus/easydownload?style=flat-square&color=yellow)](https://github.com/operseus/easydownload/stargazers)
+
+</div>
+
+<div align="center">
+  <img src="../screenshots/tabs.gif" alt="Interface EasyDownload" width="700" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
 </div>
 
 ---
@@ -39,7 +48,7 @@ EasyDownload est une application de bureau gratuite, sans publicité, légère (
 | ⚡ Phase de téléchargement (`downloading.gif`) | ⚙️ Menu Paramètres (`settings.gif`) |
 | :---: | :---: |
 | Recherchez des liens, obtenez des informations sur la vidéo et suivez la progression du téléchargement en temps réel. | Gérez les polices, les limites de téléchargement simultanées et les notifications. |
-| <img src="../screenshots/downloading.gif" alt="Écran de téléchargement"> | <img src="../screenshots/settings.gif" alt="Menu Paramètres"> |
+| <img src="../screenshots/downloading.gif" alt="Écran de téléchargement" width="340" style="border-radius: 6px;"> | <img src="../screenshots/settings.gif" alt="Menu Paramètres" width="340" style="border-radius: 6px;"> |
 
 ---
 
@@ -48,11 +57,11 @@ Contrairement aux applications modernes, EasyDownload ne consomme presque aucune
 
 #### 📊 Mode inactif (`taskmanager-idle.png`)
 Lorsque l'application est en arrière-plan ou en veille, elle ne consomme que **~5,2 Mo de RAM** et 0 % de processeur.
-<img src="../screenshots/taskmanager-idle.png" alt="Mode de performances inactif">
+<img src="../screenshots/taskmanager-idle.png" alt="Mode de performances inactif" width="600" style="border-radius: 6px; border: 1px solid #30363d;">
 
 #### 📥 Pendant le téléchargement (`taskmanager-downloading.png`)
 Même pendant le téléchargement actif, il offre des performances ultra-légères en ne consommant que **~12,9 Mo de RAM**.
-<img src="../screenshots/taskmanager-downloading.png" alt="Mode de performances pendant le téléchargement">
+<img src="../screenshots/taskmanager-downloading.png" alt="Mode de performances pendant le téléchargement" width="600" style="border-radius: 6px; border: 1px solid #30363d;">
 
 ---
 
@@ -61,17 +70,17 @@ Même pendant le téléchargement actif, il offre des performances ultra-légèr
 Afin de choisir celui qui convient le mieux à vos yeux, l'application propose 4 options de thèmes intégrées différentes : Midnight, Dark, Light et Sepia. Vous pouvez voir la transition fluide entre les thèmes ci-dessous :
 
 <div align="center">
-  <img src="../screenshots/thames/thame.gif" alt="Transition de thèmes EasyDownload" width="700">
+  <img src="../screenshots/thames/thame.gif" alt="Transition de thèmes EasyDownload" width="700" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 </div>
 
 ---
 
 ## 📦 Téléchargement et installation
 
-Vous pouvez accéder aux dernières versions stables et aux fichiers de téléchargement sur notre page [GitHub Releases](https://github.com/operseus/easydownload/releases).
+Vous pouvez accéder directement aux dernières versions stables, aux packages portables et aux anciennes versions de l'application sur la page [**GitHub Releases**](https://github.com/operseus/easydownload/releases).
 
-1. **Installation recommandée :** Téléchargez le fichier `EasyDownload-Setup-x.x.x.exe` et installez-le en quelques secondes.
-2. **Version portable (Portable) :** Téléchargez le fichier `EasyDownload-x.x.x-portable.zip`, extrayez-le dans un dossier et commencez à l'utiliser directement sans installation.
+* 📥 **Installation recommandée (Assistant) :** Téléchargez la dernière version stable `EasyDownload-Setup-x.x.x.exe` et terminez l'installation en quelques secondes.
+* 🚀 **Version portable :** Si vous ne souhaitez laisser aucune trace sur votre système, téléchargez l'archive `EasyDownload-x.x.x-portable.zip`, extrayez-la dans n'importe quel dossier et exécutez-la directement sans installation.
 
 ---
 
@@ -81,10 +90,10 @@ Ce référentiel héberge les codes du site Web de l'application, les versions e
 * 📁 `webserver/` - Codes source du site Web promotionnel EasyDownload et intégration de l'API de mise à jour automatique.
 * 📁 `versions/` - Codes sources compilés des versions d'EasyDownload.
 * 📁 `releases/` - Fichiers sources et de distribution compilés des versions d'EasyDownload.
-* 📁 `docs/` - Documentation et fichiers README liés à EasyDownload.
+* 📁 `docs/` - Documentation et fichiers README régionaux liés à EasyDownload.
 
 ---
 
 ## 📜 Licence
 
-Ce projet est développé en open-source et est entièrement gratuit. Pour plus d'informations et les détails d'utilisation, vous pouvez consulter le fichier `LICENSE`.
+Ce projet est développé en open source et est entièrement gratuit. Pour les règles d'utilisation, les autorisations de distribution et les détails, vous pouvez consulter le fichier [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE).
