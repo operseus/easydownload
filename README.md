@@ -8,7 +8,7 @@
   <a href="docs/readme/README.it.md">Italiano</a> | 
   <a href="docs/readme/README.pt.md">Português</a> | 
   <a href="docs/readme/README.ru.md">Русский</a> | 
-  <a href="docs/README/README.tr.md">Türkçe</a>
+  <a href="docs/readme/README.tr.md">Türkçe</a>
 </div>
 
 # <img src="assets/logos/logo512.png" width="32" height="32" valign="middle"> EasyDownload
