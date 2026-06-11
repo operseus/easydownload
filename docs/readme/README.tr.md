@@ -96,7 +96,7 @@ Bu depo, uygulamanın web sitesi kodlarını, sürümlerini ve altyapı araçlar
 
 ## 📜 License
 
-This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file.
+This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file
 
 ## Credits & Third-Party Licenses
 This project utilizes the following third-party tools and libraries:
