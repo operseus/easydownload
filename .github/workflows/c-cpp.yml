@@ -1,0 +1,31 @@
+name: Build C++ and Lazarus
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Install Lazarus & FPC
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y fpc lazarus
+
+    - name: Build C++
+      run: |
+        # C++ dosyalarını derleyen komut (Örn: g++ main.cpp -o program)
+        # Eğer Makefile varsa sadece 'make' yazabilirsin
+        g++ *.cpp -o cpp_prog 
+
+    - name: Build Lazarus
+      run: |
+        # Lazarus projesini derleyen komut (.lpi dosyanın adını yazmalısın)
+        lazbuild senin_projen.lpi
