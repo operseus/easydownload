@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-------------------------------------------------------------------------------
-
-This installer also bundles or utilizes the following third-party tools and 
-libraries, each under their own license:
-
-  - yt-dlp       - Unlicense (public domain)  - https://github.com/yt-dlp/yt-dlp
-  - FFmpeg       - LGPL/GPL (build-dependent) - https://ffmpeg.org
-  - Inno Setup   - Modified BSD License       - https://jrsoftware.org/
-  - Lazarus IDE  - Modified LGPL / GPL        - https://www.lazarus-ide.org/
-
-These tools are not modified and are redistributed or utilized as-is.
