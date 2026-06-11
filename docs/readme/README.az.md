@@ -94,6 +94,15 @@ Bu anbar tətbiqin veb sayt kodlarını, versiyalarını və infrastruktur alət
 
 ---
 
-## 📜 Lisenziya
+## 📜 License
 
-Bu layihə açıq mənbəli olaraq inkişaf etdirilir və tamamilə pulsuzdur. İstifadə qaydaları, paylanma icazələri və detallar üçün [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) faylını yoxlaya bilərsiniz.
+This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file.
+
+## Credits & Third-Party Licenses
+This project utilizes the following third-party tools and libraries:
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Unlicense (public domain)
+- [FFmpeg](https://ffmpeg.org) - LGPL/GPL
+- [Inno Setup](https://jrsoftware.org/) - Modified BSD License
+- [Lazarus IDE](https://www.lazarus-ide.org/) - Modified LGPL / GPL
+
+---

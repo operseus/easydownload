@@ -94,6 +94,15 @@ Dieses Repository hostet die Website-Codes, Versionen und Infrastruktur-Tools de
 
 ---
 
-## 📜 Lizenz
+## 📜 License
 
-Dieses Projekt wird als Open-Source entwickelt und ist völlig kostenlos. Nutzungsregeln, Vertriebsgenehmigungen und Details finden Sie in der Datei [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE).
+This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file.
+
+## Credits & Third-Party Licenses
+This project utilizes the following third-party tools and libraries:
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Unlicense (public domain)
+- [FFmpeg](https://ffmpeg.org) - LGPL/GPL
+- [Inno Setup](https://jrsoftware.org/) - Modified BSD License
+- [Lazarus IDE](https://www.lazarus-ide.org/) - Modified LGPL / GPL
+
+---

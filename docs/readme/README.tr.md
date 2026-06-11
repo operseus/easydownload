@@ -94,6 +94,15 @@ Bu depo, uygulamanın web sitesi kodlarını, sürümlerini ve altyapı araçlar
 
 ---
 
-## 📜 Lisans
+## 📜 License
 
-Bu proje açık kaynaklı olarak geliştirilmektedir ve tamamen ücretsizdir. Kullanım kuralları, dağıtım izinleri ve detaylar için [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) dosyasına göz atabilirsiniz.
+This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file.
+
+## Credits & Third-Party Licenses
+This project utilizes the following third-party tools and libraries:
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Unlicense (public domain)
+- [FFmpeg](https://ffmpeg.org) - LGPL/GPL
+- [Inno Setup](https://jrsoftware.org/) - Modified BSD License
+- [Lazarus IDE](https://www.lazarus-ide.org/) - Modified LGPL / GPL
+
+---

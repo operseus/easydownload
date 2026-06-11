@@ -94,6 +94,15 @@ Este repositorio aloja los códigos del sitio web de la aplicación, las version
 
 ---
 
-## 📜 Licencia
+## 📜 License
 
-Este proyecto está desarrollado como código abierto y es completamente gratuito. Para obtener reglas de uso, permisos de distribución y detalles, puede consultar el archivo [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE).
+This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file.
+
+## Credits & Third-Party Licenses
+This project utilizes the following third-party tools and libraries:
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Unlicense (public domain)
+- [FFmpeg](https://ffmpeg.org) - LGPL/GPL
+- [Inno Setup](https://jrsoftware.org/) - Modified BSD License
+- [Lazarus IDE](https://www.lazarus-ide.org/) - Modified LGPL / GPL
+
+---

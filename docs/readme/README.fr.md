@@ -94,6 +94,15 @@ Ce référentiel héberge les codes du site Web de l'application, les versions e
 
 ---
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est développé en open source et est entièrement gratuit. Pour les règles d'utilisation, les autorisations de distribution et les détails, vous pouvez consulter le fichier [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE).
+This project is developed as open-source and is completely free. For usage rules, distribution permissions, and details, you can check the [**LICENSE**](https://github.com/operseus/easydownload/blob/main/LICENSE) file.
+
+## Credits & Third-Party Licenses
+This project utilizes the following third-party tools and libraries:
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Unlicense (public domain)
+- [FFmpeg](https://ffmpeg.org) - LGPL/GPL
+- [Inno Setup](https://jrsoftware.org/) - Modified BSD License
+- [Lazarus IDE](https://www.lazarus-ide.org/) - Modified LGPL / GPL
+
+---
