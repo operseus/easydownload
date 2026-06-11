@@ -11,12 +11,8 @@ Desktop.ini
 
 # Build & Release Files
 backup/
-releases/
-*.exe
-*.7z
-*.zip
-*.pdb
-*.dll
+releases/*
+!releases/.gitkeep
 versions/*/bin/
 versions/*/data/
 
